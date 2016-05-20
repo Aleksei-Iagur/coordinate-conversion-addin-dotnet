@@ -147,6 +147,9 @@
   <data name="EnumCTUTM" xml:space="preserve">
     <value>UTM</value>
   </data>
+  <data name="LabelCategory" xml:space="preserve">
+    <value>Category</value>
+  </data>
   <data name="LabelDisplayCoordinate" xml:space="preserve">
     <value>Display Coordinate</value>
   </data>

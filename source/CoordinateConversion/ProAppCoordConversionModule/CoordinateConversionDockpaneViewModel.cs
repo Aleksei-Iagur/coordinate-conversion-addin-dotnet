@@ -17,20 +17,20 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.ComponentModel;
+using System.Collections.ObjectModel;
+using ArcGIS.Desktop.Mapping.Events;
+using ArcGIS.Core.Data;
+using ArcGIS.Desktop.Framework.Threading.Tasks;
+using ArcGIS.Desktop.Mapping;
+using ArcGIS.Core.CIM;
+using ArcGIS.Core.Geometry;
 using ArcGIS.Desktop.Framework;
 using ArcGIS.Desktop.Framework.Contracts;
 using CoordinateConversionLibrary.Views;
 using CoordinateConversionLibrary.Models;
 using CoordinateConversionLibrary.Helpers;
-using ArcGIS.Core.Geometry;
 using CoordinateConversionLibrary.ViewModels;
-using System.ComponentModel;
-using ArcGIS.Desktop.Framework.Threading.Tasks;
-using ArcGIS.Desktop.Mapping;
-using ArcGIS.Core.CIM;
-using System.Collections.ObjectModel;
-using ArcGIS.Desktop.Mapping.Events;
-using ArcGIS.Core.Data;
 
 namespace ProAppCoordConversionModule
 {

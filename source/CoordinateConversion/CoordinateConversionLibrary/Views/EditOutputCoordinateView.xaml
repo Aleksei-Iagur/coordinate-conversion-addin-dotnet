@@ -4,6 +4,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:viewModels="clr-namespace:CoordinateConversionLibrary.ViewModels"
+             xmlns:prop="clr-namespace:CoordinateConversionLibrary.Properties"
              mc:Ignorable="d" 
              WindowStartupLocation="CenterScreen"
              Title="{Binding WindowTitle}"
@@ -18,7 +19,7 @@
     <StackPanel Orientation="Vertical">
         <StackPanel Orientation="Horizontal">
             <StackPanel Orientation="Vertical">
-                <TextBlock Text="Category" Margin="3,3,3,3" />
+                <TextBlock Text="{x:Static prop:Resources.LabelCategory}" Margin="3,3,3,3" />
                 <ListBox ItemsSource="{Binding CategoryList}" SelectedItem="{Binding CategorySelection, Mode=TwoWay}"
                          MinWidth="150" Margin="3,3,3,3" />
                 <Grid>
