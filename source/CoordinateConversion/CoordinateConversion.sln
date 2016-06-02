@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoordinateConversionLibrary
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProAppCoordConversionModule", "ProAppCoordConversionModule\ProAppCoordConversionModule.csproj", "{D91D391E-03A3-4376-8BBB-EAF6F0DA1EBF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProAppCoordConversionModule.Tests", "ProAppCoordConversionModule.Tests\ProAppCoordConversionModule.Tests.csproj", "{A3F6C64C-D944-4B1D-8FE0-A6A02A0D4FDF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{D91D391E-03A3-4376-8BBB-EAF6F0DA1EBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D91D391E-03A3-4376-8BBB-EAF6F0DA1EBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D91D391E-03A3-4376-8BBB-EAF6F0DA1EBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3F6C64C-D944-4B1D-8FE0-A6A02A0D4FDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3F6C64C-D944-4B1D-8FE0-A6A02A0D4FDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3F6C64C-D944-4B1D-8FE0-A6A02A0D4FDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3F6C64C-D944-4B1D-8FE0-A6A02A0D4FDF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
